@@ -1,0 +1,127 @@
+@font-face {
+	font-family: MyriadPro-Light;
+	src: url(../fonts/Myriad-Pro-Light.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: MyriadPro-Semibold;
+	src: url(../fonts/Myriad-Pro-Semibold.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: Gotham-Light;
+	src: url(../fonts/Gotham-Light.ttf) format("truetype");
+}
+
+html {
+	height: 100%;
+	/* IE10+ */
+	background-image: -ms-linear-gradient(top, #FFFFFF 10%, #f0f0f0 60%);
+	/* Mozilla Firefox */
+	background-image: -moz-linear-gradient(top, #FFFFFF 10%, #f0f0f0 60%);
+	/* Opera */
+	background-image: -o-linear-gradient(top, #FFFFFF 10%, #f0f0f0 60%);
+	/* Webkit (Safari/Chrome 10) */
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10, #FFFFFF), color-stop(60, #f0f0f0));
+	/* Webkit (Chrome 11+) */
+	background-image: -webkit-linear-gradient(top, #FFFFFF 10%, #f0f0f0 60%);
+	/* W3C Markup */
+	background-image: linear-gradient(to bottom, #FFFFFF 10%, #f0f0f0 60%);
+}
+
+header {
+	margin-top: 7vh;
+}
+
+#intro {
+	text-align: center;
+}
+
+#pretitulo {
+	display: inline-block;
+	text-align: center;
+	color: #333;
+	font-size: 28px;
+	font-family: "MyriadPro-Semibold",
+				 "Helvetica Neue",
+				 "Helvetica", "Arial",
+				 sans-serif;
+	font-weight: 700;
+}
+
+.logo {
+	display: inline-block;
+   width: 26px;
+   margin-bottom: 14px;
+}
+
+#titulo {
+	text-align: center;
+	color: #333;
+	font-size: 66px;
+	font-family: "MyriadPro-Light",
+				 "Helvetica Neue",
+				 "Helvetica", "Arial",
+				 sans-serif;
+	letter-spacing: -.016em;
+}
+
+.cabecera {
+	margin: 0 0 5px 0;
+	text-align: center;
+	font-size: 18px;
+	font-family: "MyriadPro-Light",
+				 "Helvetica Neue",
+				 "Helvetica", "Arial",
+				 sans-serif;
+}
+
+#contenedor {
+	margin-top: 25px;
+	text-align: center
+}
+
+.clickable {
+	cursor: pointer;
+	color: rgba(0, 0, 0, 0) !important;
+	font-family: "Gotham-Light",
+				 "Helvetica Neue",
+				 "Helvetica", "Arial",
+				 sans-serif;
+	margin: 5px 5px 0 0;
+}
+
+.no_clickable {
+	cursor: not-allowed !important;
+	font-family: "Gotham-Light",
+				 "Helvetica Neue",
+				 "Helvetica", "Arial",
+				 sans-serif;
+	margin: 5px 5px 0 0;
+}
+
+.red {
+    color: #E53935;
+}
+
+.blue {
+    color: #0070C9;
+}
+
+.white {
+    color: rgba(255, 255, 255, 0);
+}
+
+.btn-default {
+	border-color: #ddd !important;
+}
+
+.botonReset {
+	margin-top: 10px;
+	color: #333;
+	font-size: 16px !important;
+	font-family: "MyriadPro-Light",
+				 "Helvetica Neue",
+				 "Helvetica", "Arial",
+				 sans-serif;
+}

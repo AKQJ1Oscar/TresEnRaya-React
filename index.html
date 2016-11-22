@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset = "UTF-8"/>
+   <title> Tres en raya - IWEB </title>
+<!--   <script type = "text/javascript"
+            src = "https://unpkg.com/react@15.3.2/dist/react.min.js">
+   </script>
+   <script type = "text/javascript"
+            src = "https://unpkg.com/react-dom@15.3.2/dist/react-dom.min.js">
+   </script> -->
+   <link rel = "stylesheet"
+        href = "./styles/app.css">
+   <link rel = "stylesheet"
+        href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+   <header>
+      <div class = "col-xs-12">
+         <div id = "intro" class = "col-xs-12">
+            <h2 id = "pretitulo"> IWEB - ReactJS </h1>
+            <img class = "logo" src = "images/react.png"/>
+         </div>
+         <h1 id = "titulo"> Tres en raya </h1>
+      </div>
+   </header>
+   <div class = "game col-xs-12" id = "contenedor" onclick = "colores()"></div>
+   <footer>
+      <script type = "text/javascript"
+               src = "src/build/index.js">
+      </script>
+      <script type = "text/javascript"
+               src = "https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+      </script>
+      <script type = "text/javascript"
+               src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+      </script>
+      <script type = "text/javascript">
+         var search0 = 'O';
+         var searchX = 'X';
+         function colores() {
+            $("button:contains('" + search0 + "')").each(function () {
+               var regex = new RegExp(search0, 'gi');
+               $(this).html($(this).text().replace(regex, "<span class = 'red'>" + search0 + "</span>"));
+            });
+            $("button:contains('" + searchX + "')").each(function () {
+               var regex = new RegExp(searchX, 'gi');
+               $(this).html($(this).text().replace(regex, "<span class = 'blue'>" + searchX + "</span>"));
+            });
+         }
+      </script>
+   </footer>
+</body>
+</html>
