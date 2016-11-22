@@ -1,10 +1,10 @@
-# Tres-en-raya
+# TresEnRaya-React
 
 ### How to install
 
 <pre>
-git clone https://github.com/AKQJ1Oscar/Tres-en-raya.git
-cd Tres-en-raya
+git clone https://github.com/AKQJ1Oscar/TresEnRaya-React.git
+cd TresEnRaya-React
 npm install
 </pre>
 
